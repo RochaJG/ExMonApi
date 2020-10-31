@@ -11,7 +11,7 @@ defmodule ExMon.Trainer do
     timestamps()
   end
 
-  @required_params [:name, :password_hash]
+  @required_params [:name, :password]
 
   def build(params) do
     params
